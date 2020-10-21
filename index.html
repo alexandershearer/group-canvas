@@ -90,6 +90,39 @@
 			
 			// 2, 3 Alex
 
+			const alxx = 2 * size
+			const alxy = 3 * size
+
+			ctx.beginPath()
+            ctx.rect(alxx, alxy, size, size)
+            ctx.fillStyle = '#000'
+            ctx.fill()
+
+            ctx.beginPath()
+            ctx.arc(alxx + size / 2, alxy + size / 2, 50, 0, Math.PI * 2)
+            ctx.fillStyle = '#fff'
+            ctx.fill()
+
+            ctx.beginPath()
+            ctx.arc(alxx + size / 2, alxy + size / 2, 47, 0, Math.PI * 2)
+            ctx.fillStyle = '#000'
+            ctx.fill()
+
+            ctx.beginPath()
+            ctx.arc(alxx + size / 2, alxy + size / 2, 40, 0, Math.PI * 2)
+            ctx.fillStyle = '#fff'
+            ctx.fill()
+
+            ctx.beginPath()
+            ctx.arc(alxx + size / 2, alxy + size / 2, 30, 0, Math.PI * 2)
+            ctx.fillStyle = '#000'
+            ctx.fill()
+
+            ctx.beginPath()
+            ctx.font = '32px Helvetica'
+            ctx.fillStyle = '#fff'
+            ctx.fillText('Hi', alxx + 42, alxy + 67)
+
 
 			// 2, 4 Ryan 
 
